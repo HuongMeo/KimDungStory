@@ -1,0 +1,118 @@
+﻿ơ/* Move down content because we have a fixed navbar that is 50px tall */
+ body {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-family: Arial;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-top: 2em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+a.title {font-weight:bold; color: white; font-size:25px; font-family:cursive;}
+ a.title:hover {color:red;}
+
+
+
+#title {
+    font-size: 1.2em;
+    color: white;
+    padding: 5px;
+    background: #B81D22;
+    text-transform: uppercase;
+    font-family: 'ambleregular';
+    margin: 0px 1000px 30px 0px;
+}
+
+#image {
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#tomtat {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+a.linkchuong {
+    font-size: 17px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a.linkchuong:hover { color: red;}
+
+    
+
+
+#tieude_dstruyen {
+    font-size: 1.2em;
+    color: #FFF;
+    padding: 5px;
+    background: #B81D22;
+    text-transform: uppercase;
+    font-family: 'ambleregular';
+    margin: 0px 0px 15px 0px;
+}
+
+.ndchuong {
+    text-align: justify;
+}
+
+.tentruyen {
+    text-align: left;
+    font-size: 35px;
+    font-family: Sniglet;
+    font-weight: bold;
+    padding: 8px 2px 8px 2px;
+    color: #ea4040;
+
+}
+
+.tenchuong {
+    font-family:Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    clear:right;
+}
+
+.searchbox {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.searchbtn {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pading {
+    color: red;
+}
+.pading.

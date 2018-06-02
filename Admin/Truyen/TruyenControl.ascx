@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="TruyenControl.ascx.cs" Inherits="Project3.Admin.Truyen.TruyenControl" %>
+<div style="font-size:17px;"><a href="?f=truyen&fs=dstruyen">Danh sách truyện</a>&nbsp;|&nbsp; <a href="?f=truyen&fs=ndtruyen">Biên tập nội dung</a> </div>
