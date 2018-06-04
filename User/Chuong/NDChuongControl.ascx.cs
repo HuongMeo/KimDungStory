@@ -10,6 +10,7 @@ using Project3.DAL;
 using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Text;
+using Project3.Search;
 
 namespace Project3.User.Chuong
 {
@@ -23,20 +24,33 @@ namespace Project3.User.Chuong
             {
                 BgrColor.Style.Add("background-color", "LavenderBlush");
                 int chuongid = int.Parse(Request["chuongid"]);
+                int searchRequest = int.Parse(Request["search"]);
                 int truyenid = int.Parse(Request["id"]);
-                LoadData(chuongid);
+                LoadData(chuongid, searchRequest);
 
             }
         }
-        void LoadData(int chuongid)
+        void LoadData(int chuongid, int id)
         {
-            DataTable dt = new DataTable();
-            dt = chuong.HienThiNDChuong(chuongid);
-            if (dt.Rows.Count > 0)
+
+            if (id == -1)
             {
-                lttentruyen.Text = dt.Rows[0]["tentruyen"].ToString();
-                ltTenChuong.Text = dt.Rows[0]["tenchuong"].ToString();
-                ltNoiDung.Text = dt.Rows[0]["noidung"].ToString();
+                DataTable dt = new DataTable();
+                dt = chuong.HienThiNDChuong(chuongid);
+
+                if (dt.Rows.Count > 0)
+                {
+                    lttentruyen.Text = dt.Rows[0]["tentruyen"].ToString();
+                    ltTenChuong.Text = dt.Rows[0]["tenchuong"].ToString();
+                    ltNoiDung.Text = dt.Rows[0]["noidung"].ToString();
+
+                } 
+            } else
+            {
+                lttentruyen.Text = "";
+                ltTenChuong.Text = DSkqTimKiem.dsKetQua[id].tenChuong;
+                ltNoiDung.Text = DSkqTimKiem.dsKetQua[id].ndChuong;
+                
             }
         }
 

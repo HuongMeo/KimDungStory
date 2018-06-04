@@ -6,7 +6,7 @@
     </HeaderTemplate>
     <ItemTemplate>
         <tr>
-            <td colspan="3"  style="font-weight:bold; font-size:30px; color:white" ><%#:Eval("tentruyen") %></td>
+            <td colspan="3"  style="font-weight:bold; font-size:30px; color:#dc2d21" ><%#:Eval("tentruyen") %></td>
         </tr>
         <tr style="height: 8px;"></tr>
         <tr>

@@ -22,15 +22,8 @@
             <div class="clear"></div>
 			<div class="header_bottom_left">				
 				<div class="categories">
-				  	<h3 style="color: /*#ea4040*/#dc2d21;  font-family: 'Times New Roman';
-	                                            font-size: 35px;
-	                                            font-style: normal;
-	                                            font-variant: normal;
-	                                            font-weight: 400;
-	                                            line-height: 30px;">Mục Lục :</h3>
-                  
                     <uc1:DSChuongControl runat="server" id="DSChuongControl" />
-                    </div>					
+                </div>					
 	  	     </div>
 			 <div class="header_bottom_right">	
                  <div class="categories">

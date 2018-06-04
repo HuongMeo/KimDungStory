@@ -41,6 +41,9 @@ C:\Users\DELL\source\repos\Project3\Project3\bin\Microsoft.AI.Web.xml
 C:\Users\DELL\source\repos\Project3\Project3\obj\Debug\Project3.csprojResolveAssemblyReference.cache
 C:\Users\DELL\source\repos\Project3\Project3\obj\Debug\Project3.dll
 C:\Users\DELL\source\repos\Project3\Project3\obj\Debug\Project3.pdb
+D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.csprojResolveAssemblyReference.cache
+D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.dll.licenses
+D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\ApplicationInsights.config
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Project3.dll.config
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Project3.dll
@@ -48,6 +51,7 @@ D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Project3.pdb
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Antlr3.Runtime.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\AspNet.ScriptManager.bootstrap.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\AspNet.ScriptManager.jQuery.dll
+D:\VisualStudioProject\BTLNET\Project3\Project3\bin\FastMember.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.Agent.Intercept.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.DependencyCollector.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -63,10 +67,12 @@ D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.ScriptManager.WebF
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.Web.Infrastructure.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Newtonsoft.Json.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Project3.DAL.dll
+D:\VisualStudioProject\BTLNET\Project3\Project3\bin\SQLDB.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\System.Web.Optimization.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\WebGrease.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Project3.DAL.pdb
+D:\VisualStudioProject\BTLNET\Project3\Project3\bin\SQLDB.pdb
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\System.Web.Optimization.xml
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Antlr3.Runtime.pdb
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AspNet.FriendlyUrls.xml
@@ -76,9 +82,6 @@ D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.DependencyColle
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.WindowsServer.xml
 D:\VisualStudioProject\BTLNET\Project3\Project3\bin\Microsoft.AI.Web.xml
-D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.csprojResolveAssemblyReference.cache
-D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.dll.licenses
-D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
 D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.csproj.CopyComplete
 D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.dll
 D:\VisualStudioProject\BTLNET\Project3\Project3\obj\Debug\Project3.pdb

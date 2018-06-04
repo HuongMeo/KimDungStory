@@ -23,7 +23,7 @@ namespace Project3
                     Controls.Add(LoadControl("User/Utilities/CacBoTruyenControl.ascx"));
                     break;
             }
-            Response.Redirect("Home.aspx");
+          Response.Redirect("Home.aspx");
 
         }
     }

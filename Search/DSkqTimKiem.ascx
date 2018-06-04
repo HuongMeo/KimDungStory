@@ -9,17 +9,27 @@
         <br />
         <br />
     <br />--%>
+        <br />
+        <br />
+        <h3 style="color: /*#ea4040*/#dc2d21;  font-family: 'Times New Roman';
+	                                            font-size: 35px;
+	                                            font-style: normal;
+	                                            font-variant: normal;
+	                                            font-weight: 400;
+	                                            line-height: 30px;">Kết quả tìm kiếm :</h3>
+
+        <br />
+        <br />
     <asp:Repeater ID="rptDSChuong" runat="server" >
             <HeaderTemplate>
                 <table cellspaceing="0" cellpadding="0" style="width:100%; ">
             </HeaderTemplate>
             <ItemTemplate>
                 <tr>
-                    <td style="width: 19%"><a href='?f=kq&fs=detail&id=<%#:Eval("truyenid") %>' style="font-family:Century; font-size: 18px; color: #FFA500"><%#:Eval("tentruyen") %></a></td>
-                
-                    <td style="width: 1%;"></td>
-               
-                    <td><a href='?f=kq&fs=detail&id=<%#:Eval("truyenid")%>&cs=detail&chuongid=<%#:Eval("chuongid") %>' class="linkchuong"><%#:Eval("tenchuong")%></a></td>
+                    <td><a href='?f=truyen&fs=detail&id=<%#:Eval("truyenId") %>&c=mucluc&cs=detail&chuongid=<%#:Eval("chuongId")%>&search=<%#:Eval("id") %>' style="font-family:Century; font-size: 18px; color: #FFA500"><%#:Eval("tenChuong") %></a></td>    
+                </tr>
+                <tr>
+                     <td><%#:Eval("content") %></td>
                 </tr>
             </ItemTemplate>
             <FooterTemplate>
